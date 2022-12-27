@@ -1,0 +1,42 @@
+.centering{
+margin: 0 auto;
+text-align: center
+}
+
+
+input{
+  border: 1px teal solid;
+ margin-bottom: 10px;
+  width: 30em;
+  height: 30px;
+}
+.post{
+  display: flex;
+  padding: 15px;
+  margin: 10px;
+  border: 3px teal solid;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+
+.post-enter {
+  opacity: 0;
+}
+.post-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+.post-exit {
+  opacity: 1;
+}
+.post-exit-active {
+  opacity: 0;
+  transition: opacity 500ms ease-in;
+}
+.link{
+  margin:10px;
+  color:teal;
+  text-decoration: none;
+}

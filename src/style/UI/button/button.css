@@ -1,0 +1,10 @@
+.primarybtn{
+   
+border: 2px teal solid;
+   padding: 10px 15px;
+  display: inline-block;
+  color: teal;
+  text-align:center;
+  background-color:white ;
+  
+  }
